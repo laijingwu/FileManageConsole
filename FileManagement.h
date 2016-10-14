@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <cstring>
 #include <sys/stat.h>
 #include <direct.h>
 // #include <unistd.h> // Linux
@@ -16,5 +17,6 @@ public:
 	void showCmdPrefix();
 	bool isExist(const char *path);
 	bool isDir(const char* path);
+	void strReplace(string &str, const char *search, const char *replace);
 };
 
