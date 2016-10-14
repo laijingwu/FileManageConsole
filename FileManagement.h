@@ -18,5 +18,14 @@ public:
 	bool isExist(const char *path);
 	bool isDir(const char* path);
 	void strReplace(string &str, const char *search, const char *replace);
+	
+	/*void cmdLs();
+	void cmdCd();
+	void cmdRm();
+	void cmdCp();
+	void cmdMv();
+	void cmdTouch();
+	void cmdMkDir();
+	void cmdRmDir();*/
 };
 
